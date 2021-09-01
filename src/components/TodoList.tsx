@@ -1,9 +1,12 @@
 import React from "react";
-import {Card, Form, Input} from "semantic-ui-react";
+import TodoInput from "components/TodoInput";
 
 const TodoList = () => {
     return(
         <>
+            <TodoInput />
         </>
     )
 }
+
+export default TodoList
